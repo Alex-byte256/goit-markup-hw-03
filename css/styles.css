@@ -1,0 +1,232 @@
+body {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --f-s-backgroud-color: #2f303a;
+  --link-logo-blue: #2196f3;
+  --white-color: #ffffff;
+  --title-color: #212121;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.current {
+  color: var(--link-logo-blue);
+}
+
+/* --------------------------Header styles------------------------------- */
+
+.logo-header {
+  color: #000000;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-blue {
+  color: var(--link-logo-blue);
+}
+
+.header-nav-list-item {
+  color: var(--title-color);
+}
+
+.header-nav-list-item:hover,
+.header-nav-list-item:focus {
+  color: var(--link-logo-blue);
+}
+
+.header-contact-list-item,
+.header-nav-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contact-list-item:hover,
+.header-contact-list-item:focus {
+  color: var(--link-logo-blue);
+}
+
+/* -----------------------main sstyles-------------------- */
+/* HERO section */
+.hero-section {
+  background-color: var(--f-s-backgroud-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--link-logo-blue);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* benefots section */
+.benefits-item-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-caption {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* work section */
+
+.work-section-title,
+.team-section-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* our team section */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-item-title {
+  color: var(--title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team-item-caption {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* FOOTER */
+/* address */
+.footer {
+  background-color: var(--f-s-backgroud-color);
+}
+
+.logo-footer {
+  color: var(--white-color);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.address {
+  font-style: normal;
+}
+.address-city {
+  color: var(--white-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-mail,
+.address-phone {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-mail:hover,
+.address-phone:hover,
+.address-mail:focus,
+.address-phone:focus {
+  color: var(--link-logo-blue);
+}
+
+/* ----------------Portfolio html------------------ */
+
+/* portfolio section */
+
+.portfolio-btn {
+  color: var(--title-color);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+  background-color: var(--link-logo-blue);
+}
+
+.works-item-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-item-caption {
+  font-size: 16px;
+  line-height: 1.88;
+}
