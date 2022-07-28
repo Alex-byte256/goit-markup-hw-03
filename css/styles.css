@@ -30,6 +30,14 @@ ul {
   padding-bottom: 94px;
 }
 
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -121,7 +129,8 @@ ul {
 }
 
 .hero-btn {
-  display: inline-block;
+  display: block;
+
   color: var(--white-color);
   background-color: var(--link-logo-blue);
 
@@ -129,16 +138,11 @@ ul {
   width: 216px;
   margin: 0 auto;
   margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding: 10px 30px;
+  padding: 10px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -202,6 +206,8 @@ ul {
 /* address */
 .footer {
   background-color: var(--f-s-backgroud-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -220,10 +226,13 @@ ul {
 
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 20px;
 }
 .address-mail,
 .address-phone {
   color: rgba(255, 255, 255, 0.6);
+
+  margin-top: 9px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -271,14 +280,6 @@ ul {
 
 /* --------------pozition----------------- */
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  outline: 1px solid tomato;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -309,6 +310,11 @@ ul {
 .team-caption-block {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.address-block-link {
+  display: flex;
+  flex-direction: column;
 }
 
 /* .team-item {
