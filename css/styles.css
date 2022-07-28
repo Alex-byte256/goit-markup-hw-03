@@ -3,11 +3,31 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --f-s-backgroud-color: #2f303a;
   --link-logo-blue: #2196f3;
   --white-color: #ffffff;
   --title-color: #212121;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -35,6 +55,7 @@ body {
 .btn {
   cursor: pointer;
   font-family: inherit;
+  border: 1px solid transparent;
 }
 
 .current {
@@ -86,6 +107,10 @@ body {
 
 .hero-title {
   color: var(--white-color);
+  text-align: center;
+
+  width: 696px;
+  margin: 0 auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -96,8 +121,17 @@ body {
 }
 
 .hero-btn {
+  display: inline-block;
   color: var(--white-color);
   background-color: var(--link-logo-blue);
+
+  border-radius: 4px;
+  width: 216px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px 30px;
 
   font-weight: 700;
   font-size: 16px;
@@ -126,6 +160,8 @@ body {
 .benefits-caption {
   font-size: 14px;
   line-height: 1.71;
+
+  margin-top: 10px;
 }
 
 /* work section */
@@ -155,6 +191,8 @@ body {
   text-align: center;
 }
 .team-item-caption {
+  margin-top: 10px;
+
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -229,4 +267,46 @@ body {
 .works-item-caption {
   font-size: 16px;
   line-height: 1.88;
+}
+
+/* --------------pozition----------------- */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work-section {
+  padding-top: 0px;
+}
+
+.work-section-list {
+  margin-top: 50px;
+}
+
+.team-list {
+  margin-top: 50px;
+}
+
+.team-caption-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
