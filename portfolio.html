@@ -14,29 +14,31 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
+    <header class="header header-portfolio">
+      <div class="container header-container">
         <a lang="en" href="./index.html" class="logo-header logo link"
           ><span class="logo-blue">Web</span>Studio</a
         >
         <ul class="header-nav list">
-          <li>
+          <li class="header-nav-item">
             <a href="./index.html" class="header-nav-list-item link">Студія</a>
           </li>
-          <li>
+          <li class="header-nav-item">
             <a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
-          <li><a href="" class="header-nav-list-item link">Контакти</a></li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-list-item link">Контакти</a>
+          </li>
         </ul>
         <ul class="header-contacts list">
-          <li>
+          <li class="header-contacts-item">
             <a
               href="mailto:info@devstudio.com"
               class="header-contact-list-item link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-contacts-item">
             <a href="tel:+380961111111" class="header-contact-list-item link"
               >+38 096 111 11 11</a
             >
@@ -46,99 +48,138 @@
     </header>
     <main>
       <section class="section">
-        <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="list portfolio-nav-list">
-          <li class="portfolio-list-item">
-            <button class="portfolio-btn btn" type="button">Все</button>
-          </li>
-          <li class="portfolio-list-item">
-            <button class="portfolio-btn btn" type="button">Веб-сайти</button>
-          </li>
-          <li class="portfolio-list-item">
-            <button class="portfolio-btn btn" type="button">Додатки</button>
-          </li>
-          <li class="portfolio-list-item">
-            <button class="portfolio-btn btn" type="button">Дизайн</button>
-          </li>
-          <li class="portfolio-list-item">
-            <button class="portfolio-btn btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list portfolio-works-list">
-          <li class="works-list-item">
-            <img width="370" src="./images/portfolio-1.jpg" alt="Технокряк" />
-            <h2 class="works-item-title">Технокряк</h2>
-            <p class="works-item-caption">Веб-сайт</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-2.jpg"
-              alt="Постер New Orlean vs Golden Star"
-            />
-            <h2 class="works-item-title">Постер New Orlean vs Golden Star</h2>
-            <p class="works-item-caption">Дизайн</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-3.jpg"
-              alt="Ресторан Seafood"
-            />
-            <h2 class="works-item-title">Ресторан Seafood</h2>
-            <p class="works-item-caption">Додаток</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-4.jpg"
-              alt="Проєкт Prime"
-            />
-            <h2 class="works-item-title">Проєкт Prime</h2>
-            <p class="works-item-caption">Маркетинг</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-5.jpg"
-              alt="Проєкт Boxes"
-            />
-            <h2 class="works-item-title">Проєкт Boxes</h2>
-            <p class="works-item-caption">Додаток</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-6.jpg"
-              alt="Inspiration has no Borders"
-            />
-            <h2 class="works-item-title">Inspiration has no Borders</h2>
-            <p class="works-item-caption">Веб-сайт</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-7.jpg"
-              alt="Видання Limited Edition"
-            />
-            <h2 class="works-item-title">Видання Limited Edition</h2>
-            <p class="works-item-caption">Дизайн</p>
-          </li>
-          <li class="works-list-item">
-            <img width="370" src="./images/portfolio-8.jpg" alt="Проект LAB" />
-            <h2 class="works-item-title">Проект LAB</h2>
-            <p class="works-item-caption">Маркетинг</p>
-          </li>
-          <li class="works-list-item">
-            <img
-              width="370"
-              src="./images/portfolio-9.jpg"
-              alt="Growing Business"
-            />
-            <h2 class="works-item-title">Growing Business</h2>
-            <p class="works-item-caption">Додаток</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="list portfolio-nav-list">
+            <li class="portfolio-list-item">
+              <button class="portfolio-btn btn" type="button">Все</button>
+            </li>
+            <li class="portfolio-list-item">
+              <button class="portfolio-btn btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="portfolio-list-item">
+              <button class="portfolio-btn btn" type="button">Додатки</button>
+            </li>
+            <li class="portfolio-list-item">
+              <button class="portfolio-btn btn" type="button">Дизайн</button>
+            </li>
+            <li class="portfolio-list-item">
+              <button class="portfolio-btn btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list portfolio-works-list">
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-1.jpg"
+                alt="Технокряк"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Технокряк</h2>
+                <p class="works-item-caption">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="works-item-caption">Дизайн</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-3.jpg"
+                alt="Ресторан Seafood"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Ресторан Seafood</h2>
+                <p class="works-item-caption">Додаток</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-4.jpg"
+                alt="Проєкт Prime"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Проєкт Prime</h2>
+                <p class="works-item-caption">Маркетинг</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-5.jpg"
+                alt="Проєкт Boxes"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Проєкт Boxes</h2>
+                <p class="works-item-caption">Додаток</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-6.jpg"
+                alt="Inspiration has no Borders"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Inspiration has no Borders</h2>
+                <p class="works-item-caption">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-7.jpg"
+                alt="Видання Limited Edition"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Видання Limited Edition</h2>
+                <p class="works-item-caption">Дизайн</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-8.jpg"
+                alt="Проект LAB"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Проект LAB</h2>
+                <p class="works-item-caption">Маркетинг</p>
+              </div>
+            </li>
+            <li class="works-list-item">
+              <img
+                width="370"
+                src="./images/portfolio-9.jpg"
+                alt="Growing Business"
+                class="img"
+              />
+              <div class="portfolio-caption-block">
+                <h2 class="works-item-title">Growing Business</h2>
+                <p class="works-item-caption">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
