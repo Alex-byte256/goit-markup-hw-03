@@ -31,7 +31,7 @@ ul {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -69,7 +69,7 @@ ul {
   border: 1px solid transparent;
 }
 
-.current {
+.header-link.current {
   color: var(--link-logo-blue);
 }
 
@@ -88,17 +88,17 @@ ul {
   color: var(--link-logo-blue);
 }
 
-.header-nav-list-item {
+.header-link {
   color: var(--title-color);
 }
 
-.header-nav-list-item:hover,
-.header-nav-list-item:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--link-logo-blue);
 }
 
 .header-contact-list-item,
-.header-nav-list-item {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -393,7 +393,7 @@ ul {
 }
 
 .portfolio-works-list {
-  margin-top: 34px;
+  margin-top: 50px;
 
   display: flex;
   flex-wrap: wrap;
